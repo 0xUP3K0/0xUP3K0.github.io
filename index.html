@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INQUISITY</title>
+<link rel="icon" type="image/x-icon" href="pfp.ico">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="title">Welcome to INQ-VIP!</h1>
+  <p class="description">First, answer the following question:</p>
+  <div class="question-container">
+    <p class="question">Do you have the password?</p>
+    <div class="answer-buttons">
+      <button class="yes-button"><b>Yes</b></button>
+      <button class="no-button"><b>No</b></button>
+    </div>
+  </div>
+  <div class="password-input hidden">
+    <div class="message-display">
+      <label for="password">Please enter your password:</label>
+      <input type="password" id="password">
+      <button class="submit-button"><b>Submit</b></button>
+    </div>
+    <p class="incorrect-message hidden">Sorry, that's not the right password. Please try again.</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
